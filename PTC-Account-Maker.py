@@ -1,4 +1,3 @@
-############## Copyright TwinFuture All Rights Reserved! ############
 import time;
 import os;
 
