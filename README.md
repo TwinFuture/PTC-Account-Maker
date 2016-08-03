@@ -1,5 +1,6 @@
 # PTC-Account-Maker
 Automactially Create as many PTC accounts as you wish!
+Accounts will be automatically activated each day!
 
 #Discord chat/support https://discord.gg/45AfENq
 
