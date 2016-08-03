@@ -13,9 +13,14 @@ from selenium.webdriver.common.keys import Keys;
 ############### Change password to your liking.. ####################
 ##### You can change the email address if you have a catchall #######
 ## Using the email below is fine, do not add anything before the @ ##
-password = "PasswordUni"; # Your desired password
-email = "@uniquez-home.com"; #Only if you OWN a domain with a catchall
+password = "PasswordUni"; # Your desired password!
 country = "GB"; # Your country code, Only suppors 2 characters!
+#Date of birth
+month = "4"; # The month you was born!
+day = "25"; # The day you was born!
+year = "1990"; # The Year you was born!
+# Caution when changing, understand..!
+email = "@uniquez-home.com"; # Only if you OWN a domain with a catchall!!!!
 
 #####################################################################
 #######                                                       #######
@@ -71,10 +76,10 @@ def signup(curAcc, driver):
                 time.sleep(2);
                 driver.find_element(By.XPATH, '//input[@id="id_dob"]').click();
                 driver.execute_script('document.getElementsByClassName("month")[0].style.display = "block";');
-                driver.find_element(By.XPATH, '//select[@class="month"]/option[@value="4"]').click();
+                driver.find_element(By.XPATH, '//select[@class="month"]/option[@value="'+month+'"]').click();
                 driver.execute_script('document.getElementsByClassName("year")[0].style.display = "block";');
-                driver.find_element(By.XPATH, '//select[@class="year"]/option[@value="1985"]').click();
-                driver.find_element(By.XPATH, '//td/div[text()="25"]').click();
+                driver.find_element(By.XPATH, '//select[@class="year"]/option[@value="'+year+'"]').click();
+                driver.find_element(By.XPATH, '//td/div[text()="'+day+'"]').click();
                 driver.find_element(By.XPATH, '//button[@class="picker__button--clear"]').click();
                 driver.execute_script('document.getElementsByName("country")[0].setAttribute("value", "'+country+'")');
                 driver.execute_script('document.getElementsByName("country")[1].setAttribute("value", "'+country+'")');
