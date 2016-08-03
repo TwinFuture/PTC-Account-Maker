@@ -1,10 +1,8 @@
 # PTC-Account-Maker
 Automactially Create as many PTC accounts as you wish!
 
-###Accounts will be automatically activated each day!
-
 #Discord chat/support https://discord.gg/45AfENq
-
+#Accounts will be automatically activated each day!
 #Installation Guide
 ####REQUIRES GOOGLE CHOME PYTHON AND SELENIUM, MAKE SURE YOU HAVE THIS INSTALLED!
 
