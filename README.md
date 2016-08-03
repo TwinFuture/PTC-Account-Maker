@@ -26,13 +26,17 @@ In you windows explorer, where you see all the python files is an address bar, c
 Type cd into command prompt and paste the location you just copied from your windows explorer address bar.
 
 The rest is easy :)
-Now once we are in our location within command prompt we then just need to type 
+Now once we are in our location within command prompt we then just need to type
+
 pip.exe install selenium
+
 Once this is done installing, we can now go back to the original download and open our accounts.txt file
 
 Now we need to add some account names to a list which we want to create we add a desired username on each line. eg;
 Pokemon1
+
 Pokemon2
+
 Pokemon3
 
 Now we can right click
@@ -41,7 +45,7 @@ Select edit with IDLE
 Once IDLE is opened, have a look at the password and country, you might wanna change these I WOULD!
 
 The email address I would recommend you keep it the same unless you have a domain name with a catch all
-As it uses your accountnameLIST@uniquez-home.com
+As it uses your accountnameLIST [A T ] uniquez-home. [ co m ]
 
 Once you have changed the the password mainly in PTC-ACC-GENERATOR.py as that's all we really need to change.
 We can now hit f5 and watch it start creating your pokemon accounts.
