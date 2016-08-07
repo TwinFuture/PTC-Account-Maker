@@ -1,6 +1,9 @@
 # PTC-Account-Maker
 Automactially Create as many PTC accounts as you wish!
 
+#NEW VERSION! simple EXE
+#https://github.com/TwinFuture/Pokemon-Account-Maker/releases
+
 #Discord chat/support https://discord.gg/45AfENq
 #Accounts will be automatically activated each day!
 #Installation Guide
