@@ -1,11 +1,6 @@
 # PTC-Account-Maker
 Automactially Create as many PTC accounts as you wish!
 
-#NEW VERSION! simple EXE
-#https://github.com/TwinFuture/Pokemon-Account-Maker/releases
-
-#Discord chat/support https://discord.gg/45AfENq
-#Accounts will be automatically activated each day!
 #Installation Guide
 ####REQUIRES GOOGLE CHOME PYTHON AND SELENIUM, MAKE SURE YOU HAVE THIS INSTALLED!
 
@@ -60,5 +55,3 @@ Once an account has been created you will see it in created.txt :)
 Any bugs, please let me know! I have just mocked this up within a few hours as I wanted something like this myself that I can trust.
 
 I THINK THAT'S ALL, ENJOY!
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTKX83YVH9TWS)
